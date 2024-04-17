@@ -13,7 +13,7 @@ for i in range(n):
 for i in range(n):
     lst[n].append([water[i],i])
     lst[i].append([water[i],n])
-heap=[[0,0]]
+heap=[[0,n]]
 while heap:
     w,now=heapq.heappop(heap)
     if not vis[now]:
