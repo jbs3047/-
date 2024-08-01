@@ -1,8 +1,8 @@
-a = [True] * (2500000 + 1)
-m = int(2500000**0.5)
+a = [True] * (25000000 + 1)
+m = int(25000000**0.5)
 for i in range(2, m + 1):
     if a[i] == True:
-        for j in range(i + i, 2500000 + 1, i):
+        for j in range(i + i, 25000000 + 1, i):
             a[j] = False
                 
 a[0]=False
