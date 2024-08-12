@@ -14,5 +14,5 @@ for tc in range(t):
         x = heapq.heappop(heap)
         y = heapq.heappop(heap)
         heapq.heappush(heap, x * y)
-        ans *= (x * y)%1000000007
+        ans *= (x * y)
     print(ans % 1000000007)
